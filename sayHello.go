@@ -1,5 +1,5 @@
 package go_mod_sayHallo
 
-func SayHallo() string {
-	return "hallo"
+func SayHallo(a string) string {
+	return "hallo" + a
 }
